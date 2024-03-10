@@ -1,0 +1,52 @@
+.Header{
+    text-align: center;
+    font-weight: bold;
+    font-family: serif;
+    font-size: revert-layer;
+    background: linear-gradient(to right, #079aa3, #84e9d3, #079aa3)
+}
+.keylabel{
+    font-weight: bold;
+}
+.form-group{
+    padding-bottom: 10px !important;
+}
+.reset{
+    display: flex;
+}
+.formdiv{
+    padding-bottom: 40px !important;
+    background: aliceblue;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    border-radius: 10px !important;
+    border: solid #e9e9e9 2px !important;
+}
+.button{
+  margin: 10px !important;
+  }
+.subdivHeader{
+    font-family: serif;
+    background: linear-gradient(to right, #079aa3, #84e9d3, #cefbea);
+    border-radius:10px 10px 0px 0px;
+  }
+  .p10{
+    padding: 10px;
+  }
+  .p5{
+    padding: 5px;
+  }
+
+  .tmep{
+    background: linear-gradient(to right, #231b30, #079aa3, #231b30);
+  }
+  .root{
+    background: #e2f7f5;
+  }
+  .head{
+    padding-left: 20px !important;
+  }
+  .Convertbutton{
+    text-align: end;
+    margin: 10px;
+  }

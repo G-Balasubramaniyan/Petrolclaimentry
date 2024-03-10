@@ -1,0 +1,37 @@
+.data-table-container {
+    padding: 20px;
+  }
+  
+  .search-input {
+    margin-bottom: 20px;
+   
+  }
+  
+  .pagination-container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .pagination-container button {
+    margin: 0 10px;
+  }
+
+  .searchbox,.pagination{
+    float: inline-end;
+  }
+
+  .searchbox{
+    margin: 10px !important;
+  }
+  tbody tr:nth-child(2n) {
+    background-color: rgba(0, 0, 50, .02);
+}
+@media only screen and (max-width: 768px) {
+  /* Adjustments for smaller screens */
+  .table {
+    width: auto;
+    overflow-x: scroll; /* Allow horizontal scrolling */
+  }
+}
