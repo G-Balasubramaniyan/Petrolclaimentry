@@ -10,32 +10,7 @@ function Home() {
     const [date, setdate] = useState('');
     const [workdis, setworkdis] = useState('');
     const [currentkm,setcurrentkm]=useState(0);
-    const tamilNaduCities = [
-        'Chennai',
-        'Coimbatore',
-        'Madurai',
-        'Tiruchirappalli',
-        'Salem',
-        'Tirunelveli',
-        'Tiruppur',
-        'Erode',
-        'Vellore',
-        'Thoothukkudi',
-        'Thanjavur',
-        'Dindigul',
-        'Ranipet',
-        'Sivakasi',
-        'Karur',
-        'Ooty',
-        'Nagercoil',
-        'Pollachi',
-        'Rajapalayam',
-        'Salem',
-        'Kumbakoanam',
-        'Trichy',
-
-        // Add more cities as needed
-    ];
+    const tamilNaduCities = ['ARIYALUR', 'THIRUCHAMPALLI', 'KOLLUMANGUDI', 'ADUTHURAI', 'MUDIKANDANALLUR', 'KUTHTHALAM', 'THANJAVUR', 'THIRUNAGESWARAM', 'MANALMEDU', 'THIRUCHIRAI', 'AALIYAVAIKAL', 'MANNARGUDI', 'THARKAS', 'PAPANASAM', 'MAYILADUTHURAI', 'ORATHANADU', 'SIRKALI', 'JAYAMKONDAM', 'AYYAMPETTAI']
 
     const Setstartkm = (event) => {
         const Start = Number(event.target.value);
