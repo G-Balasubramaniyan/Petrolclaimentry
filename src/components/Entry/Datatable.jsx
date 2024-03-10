@@ -11,7 +11,7 @@ const DataTable = ({ data, itemsPerPage }) => {
     );
 
     let pageCount = Math.ceil(filteredData.length / itemsPerPage);
-    pageCount= Math.ceil(filteredData.length / itemsPerPage)!=0 ? pageCount : 1; 
+    pageCount= Math.ceil(filteredData.length / itemsPerPage)!==0 ? pageCount : 1; 
     const handleChangePage = (page) => {
         setCurrentPage(page);
         console.log(data)
