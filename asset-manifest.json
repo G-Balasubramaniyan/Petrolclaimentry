@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Petrolclaimentry/static/css/main.cfb67fe2.css",
-    "main.js": "/Petrolclaimentry/static/js/main.02200239.js",
+    "main.css": "/Petrolclaimentry/static/css/main.dda68797.css",
+    "main.js": "/Petrolclaimentry/static/js/main.ed5813ea.js",
     "static/media/bootstrap-icons.woff?": "/Petrolclaimentry/static/media/bootstrap-icons.39795c0b4513de014cf8.woff",
     "static/media/bootstrap-icons.woff2?": "/Petrolclaimentry/static/media/bootstrap-icons.b7bcc075b395c14ce8c2.woff2",
     "index.html": "/Petrolclaimentry/index.html",
-    "main.cfb67fe2.css.map": "/Petrolclaimentry/static/css/main.cfb67fe2.css.map",
-    "main.02200239.js.map": "/Petrolclaimentry/static/js/main.02200239.js.map"
+    "main.dda68797.css.map": "/Petrolclaimentry/static/css/main.dda68797.css.map",
+    "main.ed5813ea.js.map": "/Petrolclaimentry/static/js/main.ed5813ea.js.map"
   },
   "entrypoints": [
-    "static/css/main.cfb67fe2.css",
-    "static/js/main.02200239.js"
+    "static/css/main.dda68797.css",
+    "static/js/main.ed5813ea.js"
   ]
 }
