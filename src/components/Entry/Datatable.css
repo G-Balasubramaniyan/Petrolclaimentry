@@ -17,21 +17,56 @@
   .pagination-container button {
     margin: 0 10px;
   }
-
+  
   .searchbox,.pagination{
     float: inline-end;
   }
 
   .searchbox{
     margin: 10px !important;
+    width: 150px !important;
   }
   tbody tr:nth-child(2n) {
     background-color: rgba(0, 0, 50, .02);
 }
-@media only screen and (max-width: 768px) {
-  /* Adjustments for smaller screens */
-  .table {
-    width: auto;
-    overflow-x: scroll; /* Allow horizontal scrolling */
+@media (max-width: 300px) {
+  .Datatable p {
+    font-size: 1.2em !important;
+    overflow: auto; /* Set font size to adjust when container overflows */
+  }
+}
+.container {
+  width: 100%;
+  overflow-x: auto; /* Enable horizontal scrolling if needed */
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table th,
+.table td {
+  padding: 0px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+/* .searchbox {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 8px;
+} */
+
+/* .pagination {
+  margin-top: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+} */
+
+@media (max-width: 768px) {
+  .Datatable {
+    font-size: 10px; /* Reduce font size for smaller screens */
   }
 }

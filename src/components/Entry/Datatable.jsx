@@ -27,11 +27,11 @@ const DataTable = ({ data, itemsPerPage }) => {
     const displayedData = filteredData.slice(startIndex, endIndex);
 
     return (
-        <div className='container mt-1'>
+        <div className='container mt-1 Datatable'>
             <input
                 type="text"
                 placeholder="Search..."
-                className='searchbox'
+                className='searchbox form-control'
                 value={searchTerm}
                 onChange={handleSearchChange}
             />
@@ -62,9 +62,9 @@ const DataTable = ({ data, itemsPerPage }) => {
                 </tbody>
             </table>
             <div className='pagination'>
-                <button className="btn btn-primary" onClick={() => handleChangePage(currentPage - 1)} disabled={currentPage === 1}>Previous</button>
-                <span>Page {currentPage} of {pageCount}</span> 
-                <button className="btn btn-primary" onClick={() => handleChangePage(currentPage + 1)} disabled={currentPage === pageCount}>Next</button>
+                <button className="btn btn-primary btn-sm" onClick={() => handleChangePage(currentPage - 1)} disabled={currentPage === 1}>Previous</button>
+                <span> &nbsp; Page {currentPage} of {pageCount} &nbsp; </span> 
+                <button className="btn btn-primary btn-sm" onClick={() => handleChangePage(currentPage + 1)} disabled={currentPage === pageCount}>Next</button>
             </div>
         </div>
     );
